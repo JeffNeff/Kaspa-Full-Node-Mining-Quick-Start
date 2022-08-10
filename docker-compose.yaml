@@ -1,0 +1,17 @@
+services:
+  kaspad:
+    image:  kaspad
+    volumes:
+      - './data:/root/.kaspad'
+      - './data/kaspad/:/root/data'
+    command:
+      - '/app/kaspad'
+    ports:
+      - '16110:16110'
+    user: root
+    restart: always
+
+  kstratum:
+    image: kstratum
+    ports:
+      - 16112:16112
