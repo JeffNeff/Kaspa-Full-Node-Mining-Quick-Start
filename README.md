@@ -12,14 +12,13 @@ This guide is primarly inteded for Kaspa miners who would like to solo mine [Kas
 
 # TLDR
 
-run:
 ```
 git clone https://github.com/JeffNeff/Kaspa-Full-Node-Mining-Quick-Start.git
 cd Kaspa-Full-Node-Mining-Quick-Start
 ./tldr.sh
 ```
 
-Jump to: [Start Mining](#start-mining)
+After your node has synced with the network jump to [Start Mining](#start-mining) and follow the instructions there.
 
 # Build Images from Source
 
