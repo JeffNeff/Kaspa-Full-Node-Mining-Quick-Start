@@ -10,6 +10,17 @@ This guide is primarly inteded for Kaspa miners who would like to solo mine [Kas
 
 - Docker / docker-compose: Install [here](https://www.docker.com/products/docker-desktop/)
 
+# TLDR
+
+run:
+```
+git clone https://github.com/JeffNeff/Kaspa-Full-Node-Mining-Quick-Start.git
+cd Kaspa-Full-Node-Mining-Quick-Start
+./tldr.sh
+```
+
+Jump to: [Start Mining](#start-mining)
+
 # Build Images from Source
 
 I have included two Dockerfiles that you can use to build these images. **Note** That these Dockerfiles to pull from the **main** branch of the [kaspad](https://github.com/kaspanet/kaspad) and [KStratum](https://github.com/KaffinPX/KStratum) repos and then builds the images. So it is very possible that breaking changes will occur in the future. If so try altering the Dockerfile(s) to pull from a tagged release.
